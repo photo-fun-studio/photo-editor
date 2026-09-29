@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f4f8;
+  margin: 0;
+  padding: 24px;
+}
+
+main {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 24px;
+  background: white;
+  border-radius: 12px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  max-height: 400px;
+  margin: 20px auto;
+  filter: brightness(100%) grayscale(0%);
+}
+
+label {
+  display: block;
+  margin-top: 16px;
+}
+
+input[type="range"] {
+  width: 100%;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 16px;
+  cursor: pointer;
+}
